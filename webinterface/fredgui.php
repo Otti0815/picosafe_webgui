@@ -1,16 +1,5 @@
 <?
-/* Author: Benedikt Sauter <sauter@sistecs.de> 2007
- *
- * Hier werden alle Plugins, Widgets usw instanziert die
- * fuer die Anwendung benoetigt werden.
- * Diese Klasse ist von class.application.php abgleitet.
- * Das hat den Vorteil, dass man dort bereits einiges starten kann,
- * was man eh in jeder Anwendung braucht.
- * - DB Verbindung
- * - Template Parser
- * - Sicherheitsmodul
- * - String Plugin
- * - usw....
+/* Author: Benedikt Sauter <sauter@embedded-projects.net>
  */
 include_once("./phpwf/class.application.php");
 include_once("./lib/core.php");
